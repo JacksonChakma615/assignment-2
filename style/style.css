@@ -176,4 +176,73 @@ nav a:hover {
 /* chalence part */
 
 
+.challenge {
+  text-align: center;
+  padding: 40px 20px;
+}
+.challenge h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.challenge h2 span {
+  color: #f15c22;
+}
+.challenge p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+
+.deals-grid {
+
+  display: flex;
+  gap: 20px;
+}
+
+.left-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right-column {
+  flex: 2;
+}
+
+.deal-box {
+ 
+  border-radius: 12px;
+  height: 180px;
+  position: relative;
+  color: rgb(255, 255, 255);
+
+}
+
+
+.deal-box.large {
+  height: 100%;
+ 
+}
+
+.text-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.text-content h3 {
+  font-size: 30px;
+  font-weight: bold;
+ 
+}
+
+.text-content a {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 25px;
+}
 
